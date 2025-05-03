@@ -1,4 +1,4 @@
-# **Disaster Tweet Classification using RoBERTa-Large: **
+# **Disaster Tweet Classification using RoBERTa-Large:**
 This project demonstrates the power of transformer-based architectures by fine-tuning the RoBERTa-large model for binary classification to determine whether a tweet refers to a real disaster or not.
 
 # **Project Overview:**
