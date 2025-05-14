@@ -29,20 +29,22 @@ Beyond evaluation metrics, the fine-tuned model demonstrated strong real-world p
 - The model accurately predicted the label **"Disaster"** for the following tweet from the training data:
 
 ![Prediction on dataset tweet](Images/from_dataset_disaster.png)
+
+
 - The model accurately predicted the label **"Not Disaster"** for the following tweet from the training data:
 
-![Prediction on dataset tweet]("C:\Users\W11\Pictures\Screenshots\from dataset(not disaster).png")
+![Prediction on dataset tweet](Images/from_dataset_not_disaster.png)
 
 ---
 
 ### 🔍 2.  Model Prediction on a New Tweet (Unseen Example)
 - The model also successfully predicted **Disaster-related content** for a new tweet not included in the training dataset.
 
-![Prediction on unseen tweet]("C:\Users\W11\Pictures\Screenshots\real_world example(disaster).png")
+![Prediction on unseen tweet](Images/real_world_example_disaster.png)
 
 - The model also successfully predicted **Not disaster-related content** for a new tweet not included in the training dataset.
 
-![Prediction on unseen tweet]("C:\Users\W11\Pictures\Screenshots\real_world_example(not disaster).png")
+![Prediction on unseen tweet](Images/real_world_example_not_disaster.png)
 
 
 
