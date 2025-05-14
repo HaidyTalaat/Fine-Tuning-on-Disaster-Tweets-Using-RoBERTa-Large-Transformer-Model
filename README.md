@@ -20,5 +20,29 @@ After fine-tuning, the RoBERTa-large model achieved strong performance on the va
 
 These metrics demonstrate the model's ability to learn meaningful patterns from the tweet content, effectively distinguishing between disaster-related and non-disaster-related tweets.
 
+
+
 # **Real-World Impact:**
-Beyond evaluation metrics, the fine-tuned model generalized well to unseen data. It correctly identified disaster-related content from tweets outside the training set, highlighting its robustness and potential for practical use cases.
+Beyond evaluation metrics, the fine-tuned model demonstrated strong real-world performance. It not only generalized well to **unseen tweets**, correctly identifying disaster-related content outside the training set, but also provided **accurate predictions on examples from the dataset**, confirming that it effectively learned patterns present during training.
+
+### 🔍  1. Model Prediction on a Tweet from the Dataset
+- The model accurately predicted the label **"Disaster"** for the following tweet from the training data:
+
+![Prediction on dataset tweet]("C:\Users\W11\Pictures\Screenshots\from dataset(disaster).png")
+- The model accurately predicted the label **"Not Disaster"** for the following tweet from the training data:
+
+![Prediction on dataset tweet]("C:\Users\W11\Pictures\Screenshots\from dataset(not disaster).png")
+
+---
+
+### 🔍 2.  Model Prediction on a New Tweet (Unseen Example)
+- The model also successfully predicted **Disaster-related content** for a new tweet not included in the training dataset.
+
+![Prediction on unseen tweet]("C:\Users\W11\Pictures\Screenshots\real_world example(disaster).png")
+
+- The model also successfully predicted **Not disaster-related content** for a new tweet not included in the training dataset.
+
+![Prediction on unseen tweet]("C:\Users\W11\Pictures\Screenshots\real_world_example(not disaster).png")
+
+
+
