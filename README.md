@@ -28,7 +28,7 @@ Beyond evaluation metrics, the fine-tuned model demonstrated strong real-world p
 ### 🔍  1. Model Prediction on a Tweet from the Dataset
 - The model accurately predicted the label **"Disaster"** for the following tweet from the training data:
 
-![Prediction on dataset tweet]("C:\Users\W11\Pictures\Screenshots\from dataset(disaster).png")
+![Prediction on dataset tweet](Images\from dataset(disaster).png)
 - The model accurately predicted the label **"Not Disaster"** for the following tweet from the training data:
 
 ![Prediction on dataset tweet]("C:\Users\W11\Pictures\Screenshots\from dataset(not disaster).png")
